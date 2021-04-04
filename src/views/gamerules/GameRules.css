@@ -1,0 +1,55 @@
+#gamerules {
+  width: 100%;
+  background-image: url("../../assets/bg-game-rules.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.back-button {
+  position: absolute;
+  padding: 0;
+  border-radius: 50%;
+  top: 2%;
+  left: 2%;
+}
+
+.content-container {
+  width: 60%;
+  height: 90%;
+  background-color: rgb(255, 255, 255, 0.4);
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.content-header {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content-body {
+  width: 100%;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.download-button {
+  background-color: #4d2800;
+  border: #4d2800;
+  color: white;
+}
+
+.download-button:hover {
+  background-color: #4d2800;
+  border: #4d2800;
+  color: white;
+}
+
+.download-button:focus {
+  background-color: #4d2800;
+  border: #4d2800;
+  color: white;
+}
