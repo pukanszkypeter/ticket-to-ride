@@ -1,7 +1,7 @@
-#####Pukánszky Péter
-#####ZIUHLD
-#####Kliensoldali webprogramozás, Ticket To Ride Beadandó
-#####2021.04.04.
+##### Pukánszky Péter
+##### ZIUHLD
+##### Kliensoldali webprogramozás, Ticket To Ride Beadandó
+##### 2021.04.04.
 Ezt a megoldást Pukánszky Péter, ZIUHLD küldte be és készítette a Kliensoldali webprogramozás kurzus Ticket To Ride Beadandó feladatához.
 Kijelentem, hogy ez a megoldás a saját munkám.
 Nem másoltam vagy használtam harmadik féltől származó megoldásokat.
