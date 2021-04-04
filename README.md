@@ -1,8 +1,8 @@
-Pukánszky Péter
-ZIUHLD
-Kliensoldali Webprogramozás, Ticket To Ride Beadandó
-2021.04.04.
-Ezt a megoldást Pukánszky Péter, ZIUHLD küldte be és készítette a Kliensoldali Webprogramozás kurzus Ticket To Ride Beadandó feladatához.
+#####Pukánszky Péter
+#####ZIUHLD
+#####Kliensoldali webprogramozás, Ticket To Ride Beadandó
+#####2021.04.04.
+Ezt a megoldást Pukánszky Péter, ZIUHLD küldte be és készítette a Kliensoldali webprogramozás kurzus Ticket To Ride Beadandó feladatához.
 Kijelentem, hogy ez a megoldás a saját munkám.
 Nem másoltam vagy használtam harmadik féltől származó megoldásokat.
 Nem továbbítottam megoldást hallgatótársaimnak, és nem is tettem közzé.
