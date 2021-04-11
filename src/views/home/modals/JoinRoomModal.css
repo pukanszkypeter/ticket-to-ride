@@ -1,0 +1,11 @@
+.modal-content {
+  font-family: "New Tegomin", serif;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255, 0.9) !important;
+}
+
+.btn {
+  background-color: #4d2800 !important;
+  border: #4d2800 !important;
+  color: white !important;
+}

@@ -1,9 +1,15 @@
 import "./Home.css";
-import logo from "../../assets/logo.png";
-import button from "../../assets/button.jpg";
 import { NavLink } from "react-router-dom";
+import { GameConfigModal } from "./modals/GameConfigModal.js";
+import { JoinRoomModal } from "./modals/JoinRoomModal.js";
+import React from "react";
+import logo from "../../assets/elements/logo.png";
+import button from "../../assets/elements/button.jpg";
 
 export function Home() {
+  const [gameConfigModalShow, setGameConfigModalShow] = React.useState(false);
+  const [joinRoomModalShow, setJoinRoomModalShow] = React.useState(false);
+
   return (
     <div id="home">
       {/* Ticket To Ride Logo */}
@@ -21,20 +27,34 @@ export function Home() {
       >
         <ul className="menu-list">
           <li>
-            <button className="menu-button">
+            <button
+              className="menu-button"
+              onClick={() => setGameConfigModalShow(true)}
+            >
               <div id="image-container">
                 <img width="250px" src={button} alt="menu-button" />
                 <div id="text-container">New Game</div>
               </div>
             </button>
+            <GameConfigModal
+              show={gameConfigModalShow}
+              onHide={() => setGameConfigModalShow(false)}
+            />
           </li>
           <li>
-            <button className="menu-button">
+            <button
+              className="menu-button"
+              onClick={() => setJoinRoomModalShow(true)}
+            >
               <div id="image-container">
                 <img width="250px" src={button} alt="menu-button" />
                 <div id="text-container">Join Room</div>
               </div>
             </button>
+            <JoinRoomModal
+              show={joinRoomModalShow}
+              onHide={() => setJoinRoomModalShow(false)}
+            />
           </li>
           <li>
             <NavLink to="/game-rules">

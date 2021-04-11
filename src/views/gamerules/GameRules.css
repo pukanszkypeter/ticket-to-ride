@@ -1,10 +1,11 @@
 #gamerules {
   width: 100%;
-  background-image: url("../../assets/bg-game-rules.jpg");
+  background-image: url("../../assets/backgrounds/game-rules.jpg");
   height: 100vh;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
+  overflow: hidden;
 }
 
 .back-button {
@@ -15,12 +16,19 @@
   left: 2%;
 }
 
+#backbutton {
+  max-width: 10vw;
+  height: 10vh;
+}
+
 .content-container {
   width: 60%;
   height: 90%;
-  background-color: rgb(255, 255, 255, 0.4);
+  background-color: rgb(255, 255, 255, 0.6);
   border-radius: 20px;
   font-weight: bold;
+  font-size: 0.8vw;
+  overflow-y: auto;
 }
 
 .content-header {
@@ -31,25 +39,35 @@
 }
 
 .content-body {
-  width: 100%;
+  width: 95%;
   text-align: left;
-  margin-left: 30px;
+  margin-left: 2.5%;
 }
 
-.download-button {
+.content-footer {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#download-button {
   background-color: #4d2800;
   border: #4d2800;
   color: white;
+  font-size: 0.8vw;
 }
 
-.download-button:hover {
+#download-button:hover {
   background-color: #4d2800;
   border: #4d2800;
   color: white;
+  font-size: 0.8vw;
 }
 
-.download-button:focus {
+#download-button:focus {
   background-color: #4d2800;
   border: #4d2800;
   color: white;
+  font-size: 0.8vw;
 }

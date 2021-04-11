@@ -1,0 +1,244 @@
+#game {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/backgrounds/game.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  overflow: auto;
+}
+
+#backbutton {
+  max-width: 10vw;
+  height: 10vh;
+}
+
+.map-container {
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+}
+
+#map {
+  width: 90%;
+  height: 90%;
+  margin-top: 3%;
+}
+
+.cards {
+  text-align: center;
+}
+
+.cardsList {
+  padding: 0;
+  margin: 0;
+  height: 80vh;
+  list-style-type: none;
+}
+
+.cardsElem {
+  margin-top: 1.4vh;
+  height: 10vh;
+  width: 100%;
+}
+
+.cardsItem {
+  width: 60%;
+  height: 100%;
+}
+
+/* Current Player Statistics */
+.current-player-list {
+  margin-top: 15vh;
+  margin-left: 0.5vw;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.current-player-statistics {
+  border-radius: 10px;
+  height: 30vh;
+  background-color: #4d2800;
+  color: white;
+  font-size: 0.8vw;
+}
+
+.current-player-row {
+  padding: 5px;
+}
+
+.current-player-list-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1vh;
+}
+
+.current-player-list-list-item {
+  margin-top: 0.5vh;
+  margin-left: 10%;
+  height: 3.5vh;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.current-player-cards {
+  border-radius: 10px;
+  margin-top: 2vh;
+  height: 32.5vh;
+  background-color: #4d2800;
+  color: white;
+  font-size: 0.8vw;
+}
+
+.current-player-cards-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0.5vh;
+  text-align: left;
+}
+
+.current-player-blue-card {
+  padding-left: 3%;
+  height: 2.5vh;
+  background-color: blue;
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-bottom: 0.5vh;
+}
+
+.current-player-black-card {
+  padding-left: 3%;
+  height: 2.5vh;
+  background-color: black;
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-bottom: 0.5vh;
+}
+
+.current-player-green-card {
+  padding-left: 3%;
+  height: 2.5vh;
+  background-color: green;
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-bottom: 0.5vh;
+}
+
+.current-player-orange-card {
+  padding-left: 3%;
+  height: 2.5vh;
+  background-color: orange;
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-bottom: 0.5vh;
+}
+
+.current-player-pink-card {
+  padding-left: 3%;
+  height: 2.5vh;
+  background-color: pink;
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-bottom: 0.5vh;
+}
+
+.current-player-red-card {
+  padding-left: 3%;
+  height: 2.5vh;
+  background-color: red;
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-bottom: 0.5vh;
+}
+
+.current-player-white-card {
+  padding-left: 3%;
+  height: 2.5vh;
+  background-color: white;
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-bottom: 0.5vh;
+  color: black;
+}
+
+.current-player-yellow-card {
+  padding-left: 3%;
+  height: 2.5vh;
+  background-color: yellow;
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-bottom: 0.5vh;
+  color: black;
+}
+
+.current-player-joker-card {
+  padding-left: 3%;
+  height: 2.5vh;
+  background: rgb(200, 29, 176);
+  background: linear-gradient(
+    90deg,
+    rgba(200, 29, 176, 1) 0%,
+    rgba(250, 255, 254, 1) 14%,
+    rgba(68, 221, 214, 1) 29%,
+    rgba(59, 117, 214, 1) 50%,
+    rgba(240, 244, 70, 1) 71%,
+    rgba(19, 131, 26, 1) 87%,
+    rgba(151, 222, 82, 1) 95%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-bottom: 0.5vh;
+  color: black;
+}
+
+/* Player Statistics */
+.userCard {
+  margin-top: 2vh;
+  margin-left: 1vw;
+  height: 17vh;
+  border-radius: 10px;
+  background-color: #4d2800;
+  color: white;
+  font-size: 0.8vw;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.my-row {
+  text-align: center;
+  padding: 2%;
+}
+
+.my-footer {
+  color: grey;
+  padding-top: 3%;
+  text-align: center;
+}
+
+/* Game History */
+.game-history-list {
+  height: 12vh;
+  width: 99%;
+  text-align: center;
+  overflow: hidden;
+  overflow-y: scroll;
+  font-size: 0.8vw;
+}
+
+.game-history-list-item {
+  background-color: #4d2800 !important;
+  color: white !important;
+}
